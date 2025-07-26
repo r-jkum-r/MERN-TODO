@@ -18,5 +18,5 @@ spec:
         ports:
         - containerPort: 5000
         env:
-        - name: MONGO_URL
+        - name: MONGO_URI
           value: mongodb://mongo:27017/todo
